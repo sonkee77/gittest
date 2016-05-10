@@ -13,6 +13,8 @@
 #define  IDE_ATA_IDENTIFY    0xEC  //  Returns ID sector for ATA.
 #define  IDENTIFY_BUFFER_SIZE  512
 
+// Å×½ºÆ®1
+
 // Define global buffers.
 BYTE IdOutCmd [sizeof (SENDCMDOUTPARAMS) + IDENTIFY_BUFFER_SIZE - 1];
 // DoIDENTIFY
