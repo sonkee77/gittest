@@ -14,6 +14,7 @@
 #define  IDENTIFY_BUFFER_SIZE  512
 
 // 테스트1
+// 테스트2
 
 // Define global buffers.
 BYTE IdOutCmd [sizeof (SENDCMDOUTPARAMS) + IDENTIFY_BUFFER_SIZE - 1];
