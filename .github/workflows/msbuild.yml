@@ -28,7 +28,7 @@ jobs:
     runs-on: windows-latest
 
     env:
-      PLATFORM: Win32
+      PLATFORM: x86
       CONFIGURATION: Release
       SLN_FILE: GetDiskNumber.sln
 
