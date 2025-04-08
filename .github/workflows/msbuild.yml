@@ -30,7 +30,7 @@ jobs:
     env:
       PLATFORM: Win32
       CONFIGURATION: Release
-      SLN_FILE: GetDiskNumber.vcxproj
+      SLN_FILE: GetDiskNumber.sln
 
     steps:
     - name: Checkout source
