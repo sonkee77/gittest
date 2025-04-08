@@ -25,7 +25,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: [self-hosted, DESKTOP-SEONGKYU]
+    runs-on: [self-hosted, windows,vs2010]
 
     env:
       PLATFORM: x86
