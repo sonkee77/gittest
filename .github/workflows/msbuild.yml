@@ -28,7 +28,7 @@ jobs:
     runs-on: [self-hosted, windows,vs2010]
 
     env:
-      PLATFORM: x86
+      PLATFORM: Win32
       CONFIGURATION: Release
       SLN_FILE: GetDiskNumber.sln
 
